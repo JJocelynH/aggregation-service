@@ -10,7 +10,7 @@ pipeline {
 
         stage('Build Docker Image') {
             steps {
-                sh 'docker build -t joclyner/aggregation-service .'
+                sh 'docker build -t jocelyner/aggregation-service .'
             }
         }
 
